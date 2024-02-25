@@ -26,6 +26,8 @@ export const retrievePosts = () => async (dispatch) => {
   try {
     const res = await PostDataService.getAll();
 
+    console.log(res)
+
     dispatch({
       type: RETRIEVE_POSTS,
       payload: res.data,
