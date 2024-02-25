@@ -1,4 +1,4 @@
-# React Hooks + Redux CRUD example with Axios & REST API
+# React Hooks + Redux CRUD example with Axios & REST API + Cache
 Build React Redux Post Application with Rest API calls in that:
 - Each Post has id, title, body.
 - We can create, retrieve, update, delete Posts.
